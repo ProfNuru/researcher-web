@@ -1,0 +1,29 @@
+.news-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dedede;
+}
+.date-pill {
+  background-color: var(--primary-color);
+  color: var(--primary-light);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.resource-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}

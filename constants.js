@@ -73,3 +73,148 @@ export const profile = {
     },
   ],
 };
+
+export const recentNews = [
+  {
+    date: "jun 2023",
+    text: "One paper on <a href='#'>measuring the persistence of activity in evolving networks</a> is accepted at KDD '20. Congratulations to Caleb and Carol!",
+  },
+  {
+    date: "jun 2023",
+    text: "One paper on <a href='#'>measuring the persistence of activity in evolving networks</a> is accepted at KDD '20. Congratulations to Caleb and Carol!",
+  },
+  {
+    date: "jul 2023",
+    text: "Honored to give a keynote at <a href='#'>ECML/PKDD</a>. Many thanks to the organizers for giving me this opportunity!",
+  },
+  {
+    date: "jul 2023",
+    text: "Honored to give a keynote at <a href='#'>ECML/PKDD</a>. Many thanks to the organizers for giving me this opportunity!",
+  },
+  {
+    date: "sep 2023",
+    text: "Giving keynote talks at the ACM KDD Applied Data Science track, the VLDB Scalable Data Science Research series, the KDD Outlier Detection and Description (ODD) workshop, and the ICML Workshop on Representation Learning for Finance and E-Commerce Applications. Thanks to all the track chairs and organizers for inviting me to present my group's work!",
+  },
+  {
+    date: "sep 2023",
+    text: "Giving keynote talks at the ACM KDD Applied Data Science track, the VLDB Scalable Data Science Research series, the KDD Outlier Detection and Description (ODD) workshop, and the ICML Workshop on Representation Learning for Finance and E-Commerce Applications. Thanks to all the track chairs and organizers for inviting me to present my group's work!",
+  },
+];
+
+export const recentPublications = [
+  {
+    date: "conf 2023",
+    text: "Lack of astrocytes hinders parenchymal oligodendrocyte precursor cells from reaching a myelinating state in osmolyte-induced demyelination",
+    btnLinks: [
+      {
+        label: "preprint",
+        link: "/preprint",
+      },
+      {
+        label: "pdf",
+        link: "/pdf",
+      },
+      {
+        label: "url",
+        link: "/url",
+      },
+      {
+        label: "github",
+        link: "/github",
+      },
+    ],
+  },
+  {
+    date: "conf 2023",
+    text: "Lack of astrocytes hinders parenchymal oligodendrocyte precursor cells from reaching a myelinating state in osmolyte-induced demyelination",
+    btnLinks: [
+      {
+        label: "preprint",
+        link: "/preprint",
+      },
+      {
+        label: "pdf",
+        link: "/pdf",
+      },
+      {
+        label: "url",
+        link: "/url",
+      },
+      {
+        label: "github",
+        link: "/github",
+      },
+    ],
+  },
+  {
+    date: "conf 2023",
+    text: "Lack of astrocytes hinders parenchymal oligodendrocyte precursor cells from reaching a myelinating state in osmolyte-induced demyelination",
+    btnLinks: [
+      {
+        label: "preprint",
+        link: "/preprint",
+      },
+      {
+        label: "pdf",
+        link: "/pdf",
+      },
+      {
+        label: "url",
+        link: "/url",
+      },
+      {
+        label: "github",
+        link: "/github",
+      },
+    ],
+  },
+  {
+    date: "conf 2023",
+    text: "Lack of astrocytes hinders parenchymal oligodendrocyte precursor cells from reaching a myelinating state in osmolyte-induced demyelination",
+    btnLinks: [
+      {
+        label: "preprint",
+        link: "/preprint",
+      },
+      {
+        label: "pdf",
+        link: "/pdf",
+      },
+      {
+        label: "url",
+        link: "/url",
+      },
+      {
+        label: "github",
+        link: "/github",
+      },
+    ],
+  },
+];
+
+export const supports = [
+  {
+    image: "/fera.png",
+  },
+  {
+    image: "/scandinavia.png",
+  },
+  {
+    image: "/catalyst.png",
+  },
+  {
+    image: "/ecology.png",
+  },
+  {
+    image: "/fera.png",
+  },
+  {
+    image: "/scandinavia.png",
+  },
+  {
+    image: "/catalyst.png",
+  },
+  {
+    image: "/ecology.png",
+  },
+];

@@ -5,7 +5,7 @@ const Heading = ({ center = true, title, link, linkName }) => {
   return (
     <div className={center ? "center-heading" : "left-heading"}>
       <h2>{title}</h2>
-      {!center && <Link to={link}>{linkName}</Link>}
+      {link && <Link to={link}>{linkName}</Link>}
     </div>
   );
 };

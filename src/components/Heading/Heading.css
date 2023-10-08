@@ -1,0 +1,38 @@
+.left-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.center-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-heading h2 {
+  text-transform: uppercase;
+  font-size: 1.6em;
+}
+.center-heading h2 {
+  text-transform: uppercase;
+  font-size: 1.6em;
+  text-align: center;
+}
+.left-heading a,
+.center-heading a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000;
+}
+
+@media screen and (max-width: 600px) {
+  .center-heading,
+  .left-heading {
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+  }
+  .center-heading h2,
+  .left-heading h2 {
+    text-align: center;
+  }
+}

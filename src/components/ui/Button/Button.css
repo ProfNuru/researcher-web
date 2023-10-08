@@ -1,0 +1,31 @@
+.actionButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid var(--primary-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: var(--primary-light);
+  font-weight: 500;
+  color: var(--primary-color);
+  font-size: 0.8em;
+  transition: 0.4s all;
+}
+.actionButton:hover {
+  background-color: var(--primary-color);
+  color: var(--primary-light);
+}
+
+@media screen and (max-width: 1200px) {
+  .actionButton {
+    font-size: 1vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .actionButton {
+    font-size: 0.6em;
+  }
+}
