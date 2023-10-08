@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom";
 import "./Navlink.css";
 
-const Navlink = ({ path, label }) => {
+const Navlink = ({ path, label, mobile = false, afterClick }) => {
   return (
-    <Link className="navlink" to={path}>
+    <Link
+      className={mobile ? "mobile-navlink" : "navlink"}
+      to={path}
+      onClick={afterClick ? afterClick : () => {}}
+    >
       {label}
     </Link>
   );

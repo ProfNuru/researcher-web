@@ -1,0 +1,14 @@
+footer {
+  width: 100%;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+footer small {
+  color: var(--primary-light);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}

@@ -1,5 +1,10 @@
 import Home from "./src/pages/Home";
 import Research from "./src/pages/Research";
+import Teaching from "./src/pages/Teaching";
+import Publications from "./src/pages/Publications";
+import Services from "./src/pages/Services";
+import Members from "./src/pages/Members";
+import Media from "./src/pages/Media";
 
 export const routes = [
   {
@@ -15,26 +20,26 @@ export const routes = [
   {
     route: "teaching",
     path: "/teaching",
-    element: Research,
+    element: Teaching,
   },
   {
     route: "publications",
     path: "/publications",
-    element: Research,
+    element: Publications,
   },
   {
     route: "services",
     path: "/services",
-    element: Research,
+    element: Services,
   },
   {
     route: "members",
     path: "/members",
-    element: Research,
+    element: Members,
   },
   {
     route: "media",
     path: "/media",
-    element: Research,
+    element: Media,
   },
 ];

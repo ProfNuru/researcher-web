@@ -1,5 +1,5 @@
 const Media = () => {
-  return <div>Media</div>;
+  return <h1>Media</h1>;
 };
 
 export default Media;

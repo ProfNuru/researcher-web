@@ -10,6 +10,7 @@
 
   --primary-color: #51a4c7;
   --primary-light: #ffffff;
+  --nav-border-radius: 15px;
 }
 
 * {
@@ -18,5 +19,6 @@
   box-sizing: border-box;
 }
 body {
+  position: relative;
   background-color: #faf7f2;
 }

@@ -11,29 +11,8 @@
 .mobileMenuBtn {
   display: none;
 }
-.mobileMenuBtn button {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-  gap: 3px;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-}
-.mobileMenuBtn button span {
-  height: 1px;
-  width: 20px;
-  background-color: var(--primary-light);
-}
-.mobileMenuBtn button span:nth-child(1) {
-  width: 10px;
-}
-.mobileMenuBtn button span:nth-child(2) {
-  width: 15px;
-}
 
-.navbar ul {
+.navbar .navlinks {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -48,7 +27,7 @@
     padding: 15px;
     justify-content: space-between;
   }
-  .navbar ul {
+  .navbar .navlinks {
     display: none;
   }
   .mobileMenuBtn {

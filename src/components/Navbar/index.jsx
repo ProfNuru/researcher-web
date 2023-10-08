@@ -1,10 +1,14 @@
+import { useState } from "react";
 import Navlink from "../ui/Navlink";
+import MobileMenu from "../MobileMenu";
+import MenuButton from "../ui/MenuButton";
 import "./Navbar.css";
 
 const Navbar = ({ routes }) => {
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
   return (
     <nav className="navbar">
-      <ul>
+      <ul className="navlinks">
         {routes.map((route) => (
           <li key={route.path}>
             <Navlink path={route.path} label={route.route} />
@@ -13,11 +17,19 @@ const Navbar = ({ routes }) => {
       </ul>
 
       <div className="mobileMenuBtn">
-        <button>
-          <span className="top-bar"></span>
-          <span className="mid-bar"></span>
-          <span className="bottom-bar"></span>
-        </button>
+        {!showMobileMenu && (
+          <MenuButton
+            open={!showMobileMenu}
+            fxn={() => setShowMobileMenu(true)}
+          />
+        )}
+
+        {showMobileMenu && (
+          <MobileMenu
+            menuItems={routes}
+            closeMenuFxn={() => setShowMobileMenu(false)}
+          />
+        )}
       </div>
     </nav>
   );

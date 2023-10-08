@@ -1,5 +1,5 @@
 const Research = () => {
-  return <div>Research</div>;
+  return <h1>Research</h1>;
 };
 
 export default Research;

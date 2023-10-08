@@ -1,5 +1,5 @@
 const Publications = () => {
-  return <div>Publications</div>;
+  return <h1>Publications</h1>;
 };
 
 export default Publications;
