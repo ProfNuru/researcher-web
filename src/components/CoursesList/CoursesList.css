@@ -1,0 +1,11 @@
+.courses-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 30px 0px;
+}
+.courses-list .courses {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

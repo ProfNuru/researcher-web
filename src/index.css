@@ -35,3 +35,15 @@ body {
   outline: 1px solid #51a4c7;
   border-radius: 3px;
 }
+
+@media screen and (max-width: 1200px) {
+  p {
+    font-size: 1vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  p {
+    font-size: 0.6em;
+  }
+}

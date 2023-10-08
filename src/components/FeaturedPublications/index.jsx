@@ -1,19 +1,23 @@
-import { recentPublications } from "../../../constants";
+import { recentPublications, allPublications } from "../../../constants";
 import Heading from "../Heading";
 import NewsItem from "../RecentNews/NewsItem";
 import "./FeaturedPublications.css";
 
-const FeaturedPublications = () => {
+const FeaturedPublications = ({ mainPage = false }) => {
+  const publications = mainPage ? allPublications : recentPublications;
+
   return (
-    <div className="featured-publications">
-      <Heading
-        title="featured publications"
-        center={false}
-        link={"/publications"}
-        linkName="see all publications"
-      />
+    <div className={mainPage ? "all-publications" : "featured-publications"}>
+      {!mainPage && (
+        <Heading
+          title="featured publications"
+          center={false}
+          link={"/publications"}
+          linkName="see all publications"
+        />
+      )}
       <div className="publication-items">
-        {recentPublications.map((news, i) => (
+        {publications.map((news, i) => (
           <NewsItem
             key={i}
             month={news.date.split(" ")[0]}

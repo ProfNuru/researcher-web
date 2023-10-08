@@ -1,15 +1,29 @@
 import Button from "../ui/Button";
 import "./NewsItem.css";
 
-const NewsItem = ({ month, year, text, btnLinks }) => {
+const NewsItem = ({
+  courses = false,
+  month,
+  year,
+  text,
+  btnLinks,
+  courseTitle,
+}) => {
   return (
-    <div className="news-item">
-      <div className="date-pill">
-        <span>{month}</span>
-        <span>{year}</span>
-      </div>
+    <div className={courses ? "course-item" : "news-item"}>
+      {courses ? (
+        <div className="course-title">
+          <p>{`${month} ${year}`}</p>
+          {courseTitle && <h3>{courseTitle}</h3>}
+        </div>
+      ) : (
+        <div className="date-pill">
+          <span>{month}</span>
+          <span>{year}</span>
+        </div>
+      )}
 
-      <div className="details">
+      <div className={courses ? "course-detail" : "details"}>
         <div dangerouslySetInnerHTML={{ __html: `<p>${text}</p>` }} />
         <div className="resource-links">
           {btnLinks &&

@@ -1,3 +1,4 @@
+.course-item,
 .news-item {
   display: flex;
   align-items: flex-start;
@@ -22,8 +23,55 @@
   flex-direction: column;
   gap: 10px;
 }
+.course-title {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.course-title p {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+.course-detail {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .resource-links {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .date-pill,
+  .details p {
+    font-size: 1.2vw;
+  }
+  .course-title h3 {
+    font-size: 1.6vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .date-pill,
+  .details p {
+    font-size: 0.6em;
+  }
+  .course-title h3 {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .course-item {
+    flex-direction: column;
+  }
+  .course-title {
+    gap: 10px;
+  }
 }

@@ -192,6 +192,185 @@ export const recentPublications = [
   },
 ];
 
+export const allPublications = [
+  {
+    date: "conf 2023",
+    text: "Lack of astrocytes hinders parenchymal oligodendrocyte precursor cells from reaching a myelinating state in osmolyte-induced demyelination",
+    btnLinks: [
+      {
+        label: "preprint",
+        link: "/preprint",
+      },
+      {
+        label: "pdf",
+        link: "/pdf",
+      },
+      {
+        label: "url",
+        link: "/url",
+      },
+      {
+        label: "github",
+        link: "/github",
+      },
+    ],
+  },
+  {
+    date: "conf 2023",
+    text: "Lack of astrocytes hinders parenchymal oligodendrocyte precursor cells from reaching a myelinating state in osmolyte-induced demyelination",
+    btnLinks: [
+      {
+        label: "preprint",
+        link: "/preprint",
+      },
+      {
+        label: "pdf",
+        link: "/pdf",
+      },
+      {
+        label: "url",
+        link: "/url",
+      },
+      {
+        label: "github",
+        link: "/github",
+      },
+    ],
+  },
+  {
+    date: "conf 2023",
+    text: "Lack of astrocytes hinders parenchymal oligodendrocyte precursor cells from reaching a myelinating state in osmolyte-induced demyelination",
+    btnLinks: [
+      {
+        label: "preprint",
+        link: "/preprint",
+      },
+      {
+        label: "pdf",
+        link: "/pdf",
+      },
+      {
+        label: "url",
+        link: "/url",
+      },
+      {
+        label: "github",
+        link: "/github",
+      },
+    ],
+  },
+  {
+    date: "conf 2023",
+    text: "Lack of astrocytes hinders parenchymal oligodendrocyte precursor cells from reaching a myelinating state in osmolyte-induced demyelination",
+    btnLinks: [
+      {
+        label: "preprint",
+        link: "/preprint",
+      },
+      {
+        label: "pdf",
+        link: "/pdf",
+      },
+      {
+        label: "url",
+        link: "/url",
+      },
+      {
+        label: "github",
+        link: "/github",
+      },
+    ],
+  },
+  {
+    date: "conf 2023",
+    text: "Lack of astrocytes hinders parenchymal oligodendrocyte precursor cells from reaching a myelinating state in osmolyte-induced demyelination",
+    btnLinks: [
+      {
+        label: "preprint",
+        link: "/preprint",
+      },
+      {
+        label: "pdf",
+        link: "/pdf",
+      },
+      {
+        label: "url",
+        link: "/url",
+      },
+      {
+        label: "github",
+        link: "/github",
+      },
+    ],
+  },
+  {
+    date: "conf 2023",
+    text: "Lack of astrocytes hinders parenchymal oligodendrocyte precursor cells from reaching a myelinating state in osmolyte-induced demyelination",
+    btnLinks: [
+      {
+        label: "preprint",
+        link: "/preprint",
+      },
+      {
+        label: "pdf",
+        link: "/pdf",
+      },
+      {
+        label: "url",
+        link: "/url",
+      },
+      {
+        label: "github",
+        link: "/github",
+      },
+    ],
+  },
+  {
+    date: "conf 2023",
+    text: "Lack of astrocytes hinders parenchymal oligodendrocyte precursor cells from reaching a myelinating state in osmolyte-induced demyelination",
+    btnLinks: [
+      {
+        label: "preprint",
+        link: "/preprint",
+      },
+      {
+        label: "pdf",
+        link: "/pdf",
+      },
+      {
+        label: "url",
+        link: "/url",
+      },
+      {
+        label: "github",
+        link: "/github",
+      },
+    ],
+  },
+  {
+    date: "conf 2023",
+    text: "Lack of astrocytes hinders parenchymal oligodendrocyte precursor cells from reaching a myelinating state in osmolyte-induced demyelination",
+    btnLinks: [
+      {
+        label: "preprint",
+        link: "/preprint",
+      },
+      {
+        label: "pdf",
+        link: "/pdf",
+      },
+      {
+        label: "url",
+        link: "/url",
+      },
+      {
+        label: "github",
+        link: "/github",
+      },
+    ],
+  },
+];
+
 export const supports = [
   {
     image: "/fera.png",
@@ -216,5 +395,98 @@ export const supports = [
   },
   {
     image: "/ecology.png",
+  },
+];
+
+export const publicationTypes = [
+  {
+    label: "all",
+    value: "all",
+  },
+  {
+    label: "research",
+    value: "research",
+  },
+  {
+    label: "book",
+    value: "book",
+  },
+];
+
+export const publicationYears = [
+  {
+    label: "2021",
+    value: "2021",
+  },
+  {
+    label: "2022",
+    value: "2022",
+  },
+  {
+    label: "2023",
+    value: "2023",
+  },
+];
+
+export const coursesTaught = [
+  {
+    date: "spring 2022",
+    title: "CSE 365 - Introduction to Information Assurance",
+    text: "How do countries relate to each other? How do they interact with each other? Gain a broad understanding of different kinds of political issues in the world. Comparative politics and international relations are subfields of political science. This class is open to everyone.",
+    btnLinks: [
+      {
+        label: "recorded lectures",
+        link: "/lectures",
+      },
+      {
+        label: "syllabus",
+        link: "/syllabus",
+      },
+    ],
+  },
+  {
+    date: "spring 2022",
+    title: "CSE 365 - Introduction to Information Assurance",
+    text: "How do countries relate to each other? How do they interact with each other? Gain a broad understanding of different kinds of political issues in the world. Comparative politics and international relations are subfields of political science. This class is open to everyone.",
+    btnLinks: [
+      {
+        label: "recorded lectures",
+        link: "/lectures",
+      },
+      {
+        label: "syllabus",
+        link: "/syllabus",
+      },
+    ],
+  },
+  {
+    date: "spring 2022",
+    title: "CSE 365 - Introduction to Information Assurance",
+    text: "How do countries relate to each other? How do they interact with each other? Gain a broad understanding of different kinds of political issues in the world. Comparative politics and international relations are subfields of political science. This class is open to everyone.",
+    btnLinks: [
+      {
+        label: "recorded lectures",
+        link: "/lectures",
+      },
+      {
+        label: "syllabus",
+        link: "/syllabus",
+      },
+    ],
+  },
+  {
+    date: "spring 2022",
+    title: "CSE 365 - Introduction to Information Assurance",
+    text: "How do countries relate to each other? How do they interact with each other? Gain a broad understanding of different kinds of political issues in the world. Comparative politics and international relations are subfields of political science. This class is open to everyone.",
+    btnLinks: [
+      {
+        label: "recorded lectures",
+        link: "/lectures",
+      },
+      {
+        label: "syllabus",
+        link: "/syllabus",
+      },
+    ],
   },
 ];
