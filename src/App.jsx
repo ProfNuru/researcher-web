@@ -14,8 +14,10 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar routes={routes} />
-      <main>{element}</main>
+      <div className="wrapper">
+        <Navbar routes={routes} />
+        <main>{element}</main>
+      </div>
       <Footer />
     </div>
   );

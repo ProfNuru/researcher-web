@@ -5,7 +5,14 @@
   justify-content: space-between;
 }
 
-main {
-  border: 1px solid red;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  flex-grow: 1;
+}
+.wrapper main {
   flex-grow: 1;
 }

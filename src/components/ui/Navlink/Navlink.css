@@ -1,0 +1,12 @@
+.navlink {
+  color: var(--primary-light);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+  .navlink {
+    font-size: 1.2vw;
+  }
+}

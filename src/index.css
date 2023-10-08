@@ -9,10 +9,14 @@
   -webkit-text-size-adjust: 100%;
 
   --primary-color: #51a4c7;
+  --primary-light: #ffffff;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+  background-color: #faf7f2;
 }
