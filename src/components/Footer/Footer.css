@@ -12,3 +12,15 @@ footer small {
   text-transform: uppercase;
   text-align: center;
 }
+
+@media screen and (max-width: 1200px) {
+  footer small {
+    font-size: 1vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  footer small {
+    font-size: 0.6em;
+  }
+}
