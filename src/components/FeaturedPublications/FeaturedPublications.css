@@ -8,6 +8,6 @@
   display: flex;
   flex-direction: column;
   max-height: 600px;
-  overflow: scroll;
+  overflow-y: scroll;
   gap: 15px;
 }
