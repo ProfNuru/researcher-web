@@ -43,3 +43,33 @@ export const routes = [
     element: Media,
   },
 ];
+
+export const profile = {
+  name: "muhammad luftor rahman",
+  title: "assistant professor societal transition & behaviour change",
+  email: "name@site.com ",
+  institution: "open university",
+  paragraphs: [
+    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro possimus praesentium vero culpa inventore tempore quasi fuga dolorem architecto, neque similique, iusto veritatis voluptatum autem ad voluptatibus aliquid libero asperiores",
+    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro possimus praesentium vero culpa inventore tempore quasi fuga dolorem architecto, neque similique, iusto veritatis voluptatum autem ad voluptatibus aliquid libero asperiores",
+    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro possimus praesentium vero culpa inventore tempore quasi fuga dolorem architecto, neque similique, iusto veritatis voluptatum autem ad voluptatibus aliquid libero asperiores",
+  ],
+  profilePic: "/profilePic.png",
+  socialMedia: [
+    {
+      name: "twitter",
+      icon: "/twitter.png",
+      link: "https://twitter.com",
+    },
+    {
+      name: "linkedIn",
+      icon: "/linkedin.png",
+      link: "https://linkedin.com",
+    },
+    {
+      name: "github",
+      icon: "/github.png",
+      link: "https://github.com",
+    },
+  ],
+};

@@ -1,5 +1,14 @@
+import { profile } from "../../constants";
+import Profile from "../components/Profile";
+import RecentNews from "../components/RecentNews";
+
 const Home = () => {
-  return <h1>Home</h1>;
+  return (
+    <>
+      <Profile profile={profile} />
+      <RecentNews />
+    </>
+  );
 };
 
 export default Home;
