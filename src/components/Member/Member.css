@@ -1,0 +1,68 @@
+.member {
+  display: flex;
+  gap: 20px;
+}
+.member .images {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.member .images img {
+  display: block;
+}
+.member .images img.profile-pic {
+  width: 100%;
+}
+.member .images .social-media-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.member .images .social-media-icons img {
+  display: block;
+  height: 20px;
+}
+
+.member .description {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+}
+
+.member .description .title {
+  color: var(--primary-color);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.member .description .name {
+  font-weight: bold;
+  font-size: 1.4em;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 768px) {
+  .member .images .social-media-icons img {
+    height: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .member {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .member .images .social-media-icons img {
+    height: 25px;
+  }
+  .member .description {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+  }
+}

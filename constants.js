@@ -490,3 +490,110 @@ export const coursesTaught = [
     ],
   },
 ];
+
+export const members = [
+  {
+    title: "lab manager",
+    name: "shandell pahlen",
+    email: "name@site.com",
+    description:
+      "She is completing her dissertation on the influence of smoking behavior on cognitive functioning approaching midlife. She is an affiliate graduate researcher for the consortium on the Interplay of Genes and Environment across Multiple Studies (IGEMS) and the Colorado Adoption/Twin Study of Lifespan (CATSLife).",
+
+    profilePic: "/memberProfile.png",
+    socialMedia: [
+      {
+        name: "twitter",
+        icon: "/twitter.png",
+        link: "https://twitter.com",
+      },
+      {
+        name: "linkedIn",
+        icon: "/linkedin.png",
+        link: "https://linkedin.com",
+      },
+      {
+        name: "github",
+        icon: "/github.png",
+        link: "https://github.com",
+      },
+    ],
+  },
+  {
+    title: "lab manager",
+    name: "shandell pahlen",
+    email: "name@site.com",
+    description:
+      "She is completing her dissertation on the influence of smoking behavior on cognitive functioning approaching midlife. She is an affiliate graduate researcher for the consortium on the Interplay of Genes and Environment across Multiple Studies (IGEMS) and the Colorado Adoption/Twin Study of Lifespan (CATSLife).",
+
+    profilePic: "/memberProfile.png",
+    socialMedia: [
+      {
+        name: "twitter",
+        icon: "/twitter.png",
+        link: "https://twitter.com",
+      },
+      {
+        name: "linkedIn",
+        icon: "/linkedin.png",
+        link: "https://linkedin.com",
+      },
+      {
+        name: "github",
+        icon: "/github.png",
+        link: "https://github.com",
+      },
+    ],
+  },
+  {
+    title: "lab manager",
+    name: "shandell pahlen",
+    email: "name@site.com",
+    description:
+      "She is completing her dissertation on the influence of smoking behavior on cognitive functioning approaching midlife. She is an affiliate graduate researcher for the consortium on the Interplay of Genes and Environment across Multiple Studies (IGEMS) and the Colorado Adoption/Twin Study of Lifespan (CATSLife).",
+
+    profilePic: "/memberProfile.png",
+    socialMedia: [
+      {
+        name: "twitter",
+        icon: "/twitter.png",
+        link: "https://twitter.com",
+      },
+      {
+        name: "linkedIn",
+        icon: "/linkedin.png",
+        link: "https://linkedin.com",
+      },
+      {
+        name: "github",
+        icon: "/github.png",
+        link: "https://github.com",
+      },
+    ],
+  },
+  {
+    title: "lab manager",
+    name: "shandell pahlen",
+    email: "name@site.com",
+    description:
+      "She is completing her dissertation on the influence of smoking behavior on cognitive functioning approaching midlife. She is an affiliate graduate researcher for the consortium on the Interplay of Genes and Environment across Multiple Studies (IGEMS) and the Colorado Adoption/Twin Study of Lifespan (CATSLife).",
+
+    profilePic: "/memberProfile.png",
+    socialMedia: [
+      {
+        name: "twitter",
+        icon: "/twitter.png",
+        link: "https://twitter.com",
+      },
+      {
+        name: "linkedIn",
+        icon: "/linkedin.png",
+        link: "https://linkedin.com",
+      },
+      {
+        name: "github",
+        icon: "/github.png",
+        link: "https://github.com",
+      },
+    ],
+  },
+];

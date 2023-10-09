@@ -1,4 +1,5 @@
-.actionButton {
+.actionButton,
+.activeButton {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,19 +14,26 @@
   font-size: 0.8em;
   transition: 0.4s all;
 }
+.activeButton,
 .actionButton:hover {
   background-color: var(--primary-color);
   color: var(--primary-light);
 }
-
+.toggle-btn {
+  font-weight: bold;
+  padding: 8px 2vw;
+  font-size: 0.6em;
+}
 @media screen and (max-width: 1200px) {
-  .actionButton {
+  .actionButton,
+  .activeButton {
     font-size: 1vw;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .actionButton {
+  .actionButton,
+  .activeButton {
     font-size: 0.6em;
   }
 }
