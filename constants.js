@@ -689,3 +689,39 @@ export const allMedia = [
     ],
   },
 ];
+
+export const services = [
+  {
+    title: "Program Committee Chair / Track Chair",
+    items: [
+      "Privacy and Anonymity Track Chair, ACM Conference on Computer and Information Security (CCS) 2021",
+      "Workshop Chair, Workshop on Theory and Practice of Differential Privacy (TPDP) 2017",
+    ],
+  },
+  {
+    title: "Program Committee Member / Area Chair",
+    items: [
+      "Conference on Learning Theory (COLT): 2023",
+      "ACM Conference on Fairness, Accountability, and Transparency (FAccT): 2022",
+      "AAAI Conference on Artificial Intelligence (AAAI): 2022",
+      "IEEE Symposium on Security & Privacy (S&P): 2020, 2021",
+      "ACM Conference on Computer and Information Security (CCS): 2020",
+      "Information Theoretic Cryptography Conference (ITC): 2020",
+      "IEEE Symposium on Foundations of Computer Science (FOCS): 2018",
+      "SIAM Symposium on Discrete Algorithms (SODA): 2018, 2024",
+      "ACM Conference on Economics and Computation (EC): 2016",
+      "Theory of Cryptography Conference (TCC): 2015, 2016",
+      "ACM Symposium on Theory of Computing (STOC): 2015",
+      "ACM Innovations in Theoretical Computer Science (ITCS): 2015",
+    ],
+  },
+  {
+    title: "reviewer",
+    items: [
+      "Conference on Learning Theory (COLT): 2020",
+      "International Conference on Machine Learning (ICML): 2018, 2020",
+      "International Conference on Artificial Intelligence and Statistics (AISTATS): 2017",
+      "Conference on Neural and Information Processing Systems (NeurIPS): 2016, 2017",
+    ],
+  },
+];

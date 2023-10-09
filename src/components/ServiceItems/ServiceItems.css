@@ -1,0 +1,32 @@
+.service-items {
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.service-items h3 {
+  font-size: 1.6em;
+  text-transform: capitalize;
+}
+.service-items ul li {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+  .service-items ul li {
+    font-size: 1.2vw;
+  }
+  .service-items h3 {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .service-items ul li {
+    font-size: 0.8em;
+  }
+  .service-items h3 {
+    font-size: 1.2em;
+  }
+}
