@@ -661,3 +661,31 @@ export const contributors = [
     image: "/memberProfile.png",
   },
 ];
+
+export const allMedia = [
+  {
+    image: "/media1.png",
+    title: "Cras metus nisi, gravida vitae sodales sit amet",
+    listItems: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Mauris cursus vestibulum turpis, non rutrum turpis sodales eget. Pellentesque accumsan suscipit aliquet. Nunc gravida erat eu condimentum hendrerit.",
+    ],
+  },
+  {
+    image: "/media2.png",
+    title: "Pellentesque eget tincidunt nisl Curabitur tempus.",
+    listItems: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Mauris cursus vestibulum turpis, non rutrum turpis sodales eget. Pellentesque accumsan suscipit aliquet. Nunc gravida erat eu condimentum hendrerit.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    ],
+  },
+  {
+    image: "/media3.png",
+    title: "Quisque suscipit mollis",
+    listItems: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Mauris cursus vestibulum turpis, non rutrum turpis sodales eget. Pellentesque accumsan suscipit aliquet. Nunc gravida erat eu condimentum hendrerit.",
+    ],
+  },
+];
