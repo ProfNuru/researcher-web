@@ -2,7 +2,9 @@ import { Link } from "react-router-dom";
 import "./ResearchCard.css";
 
 const ResearchCard = ({ reverse = false, research }) => {
-  const detailPath = `/research?r=${research.title}`;
+  const query = new URLSearchParams({
+    r: research.title,
+  }).toString();
   return (
     <div className={reverse ? "research-card-reverse" : "research-card"}>
       <div className="research-img">
@@ -13,7 +15,7 @@ const ResearchCard = ({ reverse = false, research }) => {
         <p>
           {research.summary}
           <br />
-          <Link to={detailPath}>read more</Link>
+          <Link to={`/research?${query}`}>read more</Link>
         </p>
       </div>
     </div>
