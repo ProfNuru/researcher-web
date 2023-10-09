@@ -1,0 +1,12 @@
+.contributors {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2%;
+}
+
+@media screen and (max-width: 600px) {
+  .contributors {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+  }
+}

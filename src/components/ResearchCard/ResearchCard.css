@@ -1,0 +1,68 @@
+.research-card,
+.research-card-reverse {
+  display: flex;
+  gap: 25px;
+  border-bottom: 1px solid #dedede;
+  padding: 20px 0px;
+}
+.research-card-reverse {
+  flex-direction: row-reverse;
+}
+.research-img {
+  flex: 1.5;
+  display: flex;
+  justify-content: center;
+}
+.research-details {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.research-details a {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #000;
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.research-img img {
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .research-img {
+    flex: 2;
+  }
+  .research-details h3 {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .research-card,
+  .research-card-reverse {
+    flex-direction: column;
+  }
+  .research-img img {
+    width: auto;
+    max-height: 250px;
+  }
+  .research-details {
+    align-items: center;
+  }
+  .research-details h3,
+  .research-details p {
+    text-align: center;
+  }
+  .research-details h3 {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .research-img img {
+    width: 100%;
+  }
+}

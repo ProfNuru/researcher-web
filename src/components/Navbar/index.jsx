@@ -12,15 +12,17 @@ const Navbar = ({ routes }) => {
   return (
     <nav className="navbar">
       <ul className="navlinks">
-        {routes.map((route) => (
-          <li key={route.path}>
-            <Navlink
-              activeNav={location.pathname == route.path}
-              path={route.path}
-              label={route.route}
-            />
-          </li>
-        ))}
+        {routes.map((route) => {
+          return (
+            <li key={route.path}>
+              <Navlink
+                activeNav={location.pathname === route.path}
+                path={route.path}
+                label={route.route}
+              />
+            </li>
+          );
+        })}
       </ul>
 
       <div className="mobileMenuBtn">

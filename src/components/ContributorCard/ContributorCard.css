@@ -1,0 +1,41 @@
+.contributor-card {
+  display: flex;
+  gap: 10px;
+}
+.contributor-card .img {
+  flex: 1.5;
+}
+.contributor-card .text {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contributor-card .text p {
+  color: var(--primary-color);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.contributor-card .text h3 {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.contributor-card .img img {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .contributor-card .text h3 {
+    font-size: 1.8vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contributor-card .text h3 {
+    font-size: 1.2em;
+  }
+  .contributor-card {
+    flex-direction: column;
+  }
+}

@@ -1,16 +1,13 @@
-import { recentPublications, allPublications } from "../../../constants";
 import Heading from "../Heading";
 import NewsItem from "../RecentNews/NewsItem";
 import "./FeaturedPublications.css";
 
-const FeaturedPublications = ({ mainPage = false }) => {
-  const publications = mainPage ? allPublications : recentPublications;
-
+const FeaturedPublications = ({ mainPage = false, publications, title }) => {
   return (
     <div className={mainPage ? "all-publications" : "featured-publications"}>
       {!mainPage && (
         <Heading
-          title="featured publications"
+          title={title}
           center={false}
           link={"/publications"}
           linkName="see all publications"

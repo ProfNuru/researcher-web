@@ -1,5 +1,9 @@
+import { useLocation } from "react-router-dom";
+import { researches } from "../../constants";
 import Heading from "../components/Heading";
+import ResearchesList from "../components/ResearchesList";
 import ToggleButtons from "../components/ui/ToggleButtons";
+import IndividualResearchPage from "./IndividualResearchPage";
 
 const options = [
   {
@@ -17,7 +21,12 @@ const options = [
 ];
 
 const Research = () => {
-  return (
+  const location = useLocation();
+  const query = new URLSearchParams(location.search);
+  const individualResearch = query.get("r");
+  return individualResearch ? (
+    <IndividualResearchPage researchName={individualResearch} />
+  ) : (
     <>
       <div
         style={{
@@ -32,6 +41,8 @@ const Research = () => {
         <Heading title="research" center={true} />
         <ToggleButtons options={options} />
       </div>
+
+      <ResearchesList researches={researches} />
     </>
   );
 };

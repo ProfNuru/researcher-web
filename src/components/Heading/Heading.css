@@ -9,11 +9,9 @@
   align-items: center;
 }
 .left-heading h1 {
-  text-transform: uppercase;
   font-size: 1.6em;
 }
 .center-heading h1 {
-  text-transform: uppercase;
   font-size: 1.6em;
   text-align: center;
 }

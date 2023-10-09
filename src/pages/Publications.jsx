@@ -1,3 +1,4 @@
+import { allPublications } from "../../constants";
 import FilterForm from "../components/FilterForm";
 import Heading from "../components/Heading";
 import AllPublications from "../components/FeaturedPublications";
@@ -18,7 +19,7 @@ const Publications = () => {
         <Heading title="publications" />
         <FilterForm />
       </div>
-      <AllPublications mainPage={true} />
+      <AllPublications publications={allPublications} mainPage={true} />
     </>
   );
 };

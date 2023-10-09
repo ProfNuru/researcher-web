@@ -1,4 +1,4 @@
-import { profile } from "../../constants";
+import { profile, recentNews, recentPublications } from "../../constants";
 import Acknowledgements from "../components/Acknowledgements";
 import FeaturedPublications from "../components/FeaturedPublications";
 import Profile from "../components/Profile";
@@ -8,8 +8,11 @@ const Home = () => {
   return (
     <>
       <Profile profile={profile} />
-      <RecentNews />
-      <FeaturedPublications />
+      <RecentNews recentNews={recentNews} />
+      <FeaturedPublications
+        publications={recentPublications}
+        title="recent publications"
+      />
       <Acknowledgements />
     </>
   );
