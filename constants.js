@@ -7,6 +7,7 @@ import Members from "./src/pages/Members";
 import Media from "./src/pages/Media";
 import newsJson from "./news_json.json";
 import publicationsJson from "./publications_json.json";
+import featuredPublicationsJson from "./featured_publications_json.json";
 
 export const routes = [
   {
@@ -324,7 +325,30 @@ export const allPublications = publicationsJson
       },
     ];
 
-export const recentPublications = allPublications.filter((p, i) => i <= 5);
+export const recentPublications = featuredPublicationsJson
+  ? featuredPublicationsJson.map((p) => {
+      let detail_arr = p.detail.split(". ");
+      const date = detail_arr[detail_arr.length - 1];
+      let obj = {
+        date: date.includes(" ")
+          ? `${date.split(" ")[0].toLowerCase().substring(0, 3)} ${
+              date.split(" ")[1]
+            }`
+          : date,
+        title: p.title,
+        text: p.detail,
+        tags: p.tags,
+        conferencename: p.conferencename,
+        btnLinks: [
+          {
+            label: p.type,
+            link: `#`,
+          },
+        ],
+      };
+      return obj;
+    })
+  : allPublications.filter((p, i) => i <= 5);
 
 export const supports = [
   {

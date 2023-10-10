@@ -1,0 +1,30 @@
+[
+  {
+    "conferencename": "VLDB23",
+    "type": "paper",
+    "title": "Transactional Panorama: A Conceptual Framework for User Perception in Analytical Visual Interfaces.",
+    "detail": "Dixin Tang, Alan D. Fekete, Indranil Gupta, Aditya G. Parameswaran. 49th International Conference on Very Large Data Bases (VLDB), Vancouver, Canada. September 2023",
+    "tags": [""]
+  },
+  {
+    "conferencename": "VLDB23",
+    "type": "paper",
+    "title": "Towards Observability for Production Machine Learning Pipelines.",
+    "detail": "Shreya Shankar, Aditya G. Parameswaran. 49th International Conference on Very Large Data Bases (VLDB), Vancouver, Canada. September 2023",
+    "tags": ["robots"]
+  },
+  {
+    "conferencename": "VLDB23",
+    "type": "paper",
+    "title": "Bolt-on, Compact, and Rapid Program Slicing for Notebooks.",
+    "detail": "Shreya Shankar*, Stephen Macke*, Sarah Chasins, Andrew Head, Aditya G. Parameswaran. 49th International Conference on Very Large Data Bases (VLDB), Vancouver, Canada. September 2023",
+    "tags": ["urban"]
+  },
+  {
+    "conferencename": "VLDB23",
+    "type": "paper",
+    "title": "Visualizing Spreadsheet Formula Graphs Compactly.",
+    "detail": "Fanchao Chen, Dixin Tang, Haotian Li, Aditya G. Parameswaran. 49th International Conference on Very Large Data Bases (VLDB), Vancouver, Canada. September 2023",
+    "tags": [""]
+  }
+]
