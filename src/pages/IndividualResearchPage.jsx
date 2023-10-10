@@ -1,10 +1,5 @@
 import Heading from "../components/Heading";
-import {
-  contributors,
-  recentNews,
-  recentPublications,
-  researches,
-} from "../../constants";
+import { recentPublications, researches } from "../../constants";
 import FeaturedPublications from "../components/FeaturedPublications";
 import ResearchContributors from "../components/ResearchContributors";
 import RecentNews from "../components/RecentNews";
@@ -87,8 +82,15 @@ const IndividualResearchPage = ({ researchName }) => {
             }}
           >
             <Heading center={false} title={"contributors"} />
-            <ResearchContributors contributors={contributors} />
+            <ResearchContributors contributors={research.contributors} />
           </div>
+          <RecentNews
+            recentNews={[
+              research.news[research.news.length - 1],
+              research.news[research.news.length - 2],
+            ]}
+            title={"related news"}
+          />
         </>
       ) : (
         <div
@@ -111,14 +113,6 @@ const IndividualResearchPage = ({ researchName }) => {
           </h3>
         </div>
       )}
-
-      <RecentNews
-        recentNews={[
-          recentNews[recentNews.length - 1],
-          recentNews[recentNews.length - 2],
-        ]}
-        title={"related news"}
-      />
     </div>
   );
 };

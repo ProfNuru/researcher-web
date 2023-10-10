@@ -4,104 +4,164 @@
     "type": "paper",
     "title": "Transactional Panorama: A Conceptual Framework for User Perception in Analytical Visual Interfaces.",
     "detail": "Dixin Tang, Alan D. Fekete, Indranil Gupta, Aditya G. Parameswaran. 49th International Conference on Very Large Data Bases (VLDB), Vancouver, Canada. September 2023",
-    "tags": [""]
+    "tags": [""],
+    "paper": "#",
+    "slides": "#",
+    "github": "#",
+    "news": "#"
   },
   {
     "conferencename": "VLDB23",
     "type": "paper",
     "title": "Towards Observability for Production Machine Learning Pipelines.",
     "detail": "Shreya Shankar, Aditya G. Parameswaran. 49th International Conference on Very Large Data Bases (VLDB), Vancouver, Canada. September 2023",
-    "tags": ["robots"]
+    "tags": ["robots"],
+    "paper": "#",
+    "slides": "#",
+    "github": "#",
+    "news": "#"
   },
   {
     "conferencename": "VLDB23",
     "type": "paper",
     "title": "Bolt-on, Compact, and Rapid Program Slicing for Notebooks.",
     "detail": "Shreya Shankar*, Stephen Macke*, Sarah Chasins, Andrew Head, Aditya G. Parameswaran. 49th International Conference on Very Large Data Bases (VLDB), Vancouver, Canada. September 2023",
-    "tags": ["urban"]
+    "tags": ["urban"],
+    "paper": "#",
+    "slides": "#",
+    "github": "#",
+    "news": "#"
   },
   {
     "conferencename": "VLDB23",
     "type": "paper",
     "title": "Visualizing Spreadsheet Formula Graphs Compactly.",
     "detail": "Fanchao Chen, Dixin Tang, Haotian Li, Aditya G. Parameswaran. 49th International Conference on Very Large Data Bases (VLDB), Vancouver, Canada. September 2023",
-    "tags": [""]
+    "tags": [""],
+    "paper": "#",
+    "slides": "#",
+    "github": "#",
+    "news": "#"
   },
   {
     "conferencename": "VLDB23",
     "type": "pre-print",
     "title": "Moving Fast with Big Data.",
     "detail": "Shreya Shankar*, Labib Fawaz, Karl Gyllstrom, Aditya G. Parameswaran. Technical Report. May 2023",
-    "tags": ["robots"]
+    "tags": ["robots"],
+    "paper": "#",
+    "slides": "#",
+    "github": "#",
+    "news": "#"
   },
   {
     "conferencename": "VLDB23",
     "type": "paper",
     "title": "Efficient and Compact Spreadsheet Formula Graphs.",
     "detail": "Dixin Tang, Fanchao Chen, Christopher De Leon, Tana Wattanawaroon, Jeaseok Yun, Srinivasan Seshadri, Aditya G. Parameswaran. 39th International Conf. on Data Engineering (ICDE), Anaheim, CA, USA. April 2023",
-    "tags": ["urban"]
+    "tags": ["urban"],
+    "paper": "#",
+    "slides": "#",
+    "github": "#",
+    "news": "#"
   },
   {
     "conferencename": "VLDB23",
     "type": "pre-print",
     "title": "Operationalizing Machine Learning: An Interview Study.",
     "detail": "Shreya Shankar, Rolando Garcia, Joseph M. Hellerstein, Aditya G. Parameswaran. Technical Report. February 2023",
-    "tags": [""]
+    "tags": [""],
+    "paper": "#",
+    "slides": "#",
+    "github": "#",
+    "news": "#"
   },
   {
     "conferencename": "VLDB23",
     "type": "paper",
     "title": "Lux: Always-on Visualization Recommendations for Exploratory Data Science.",
     "detail": "Doris Jung-Lin Lee, Dixin Tang, Kunal Agarwal, Thyne Boonmark, Caitlyn Chen, Jake Kang, Ujjaini Mukhopadhyay, Jerry Song, Micah Yong, Marti A. Hearst, Aditya G. Parameswaran. 48th International Conference on Very Large Data Bases (VLDB), Sydney, Australia and Zoom. September 2022",
-    "tags": ["robots"]
+    "tags": ["robots"],
+    "paper": "#",
+    "slides": "#",
+    "github": "#",
+    "news": "#"
   },
   {
     "conferencename": "VLDB23",
     "type": "paper",
     "title": "Flexible Rule-Based Decomposition and Metadata Independence in Modin: A Parallel Dataframe System.",
     "detail": "Devin Petersohn*, Dixin Tang*, Rehan Durrani, Areg Melik-Adamyan, Joseph E. Gonzalez, Anthony D. Joseph, Aditya G. Parameswaran. 48th International Conference on Very Large Data Bases (VLDB), Sydney, Australia and Zoom. September 2022",
-    "tags": ["urban"]
+    "tags": ["urban"],
+    "paper": "#",
+    "slides": "#",
+    "github": "#",
+    "news": "#"
   },
   {
     "conferencename": "VLDB23",
     "type": "paper",
     "title": "Expressive Visual Querying for Accelerating Insight.",
     "detail": "Tarique Siddiqui, Paul Luh, Zesheng Wang, Karrie Karahalios, Aditya G. Parameswaran. CACM, Volume 65 No. 7. 2022",
-    "tags": [""]
+    "tags": [""],
+    "paper": "#",
+    "slides": "#",
+    "github": "#",
+    "news": "#"
   },
   {
     "conferencename": "VLDB23",
     "type": "paper",
     "title": "Leveraging Analysis History for Improved In Situ Visualization Recommendation.",
     "detail": "Will Epperson, Doris Lee, Leijie Wang, Kunal Agarwal, Aditya Parameswaran, Dominik Moritz, Adam Perer. EuroVis\u00e2\u20ac\u212222: 24th Eurographics Conference on Visualization, Rome, Italy. 2022",
-    "tags": ["robots"]
+    "tags": ["robots"],
+    "paper": "#",
+    "slides": "#",
+    "github": "#",
+    "news": "#"
   },
   {
     "conferencename": "VLDB23",
     "type": "paper",
     "title": "Piloting Data Engineering at Berkeley.",
     "detail": "Joe Hellerstein, Aditya G. Parameswaran. Data Ed Workshop at SIGMOD\u00e2\u20ac\u212222: SIGMOD International Conference on Data Management, Zoom. June 2022",
-    "tags": ["urban"]
+    "tags": ["urban"],
+    "paper": "#",
+    "slides": "#",
+    "github": "#",
+    "news": "#"
   },
   {
     "conferencename": "VLDB23",
     "type": "paper",
     "title": "Rethinking Streaming Machine Learning Evaluation.",
     "detail": "Shreya Shankar, Bernease Herman, Aditya G. Parameswaran. ML Evaluation Standards Workshop at ICLR\u00e2\u20ac\u212222: 11th International Conference on Learning Representations, Zoom. Apr 2022",
-    "tags": [""]
+    "tags": [""],
+    "paper": "#",
+    "slides": "#",
+    "github": "#",
+    "news": "#"
   },
   {
     "conferencename": "VLDB23",
     "type": "paper",
     "title": "Deconstructing Categorization in Visualization Recommendation: A Taxonomy and Comparative Study.",
     "detail": "Doris Jung-Lin Lee, Vidya Setlur, Melanie Tory, Karrie Karahalios, Aditya Parameswaran. IEEE Int'l Conf. on Information Visualization (InfoVis), Zoom. October 2021",
-    "tags": ["robots"]
+    "tags": ["robots"],
+    "paper": "#",
+    "slides": "#",
+    "github": "#",
+    "news": "#"
   },
   {
     "conferencename": "VLDB23",
     "type": "paper",
     "title": "Fine-Grained Lineage for Safer Notebook Interactions.",
     "detail": "Stephen Macke, Hongpu Gong, Doris Jung-Lin Lee, Andrew Head, Doris Xin, Aditya Parameswaran. 47th International Conference on Very Large Data Bases (VLDB), Copenhagen, Denmark and Zoom. September 2021",
-    "tags": ["urban"]
+    "tags": ["urban"],
+    "paper": "#",
+    "slides": "#",
+    "github": "#",
+    "news": "#"
   }
 ]

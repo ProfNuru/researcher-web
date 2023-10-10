@@ -607,6 +607,91 @@ export const researches = [
       "How do countries relate to each other? How do they interact with each other? Gain a broad understanding of different kinds of political issues in the world. Comparative politics and international relations are subfields of political science. This class is open to everyone.",
     detail:
       "The Association of Southeast Asian Nations (ASEAN) and the Economic Community of West African States (ECOWAS) both recently adopted and institutionalized the norm of people-centric governance. This is potentially transformative for both, signalling a reorientation away from their private and elite-led normative foundations. In practice, however, the norm is understood and enacted in different ways by officials at each organization and with radically different effects. In ASEAN, the norm is understood and enacted in a limited and defensive way. Its institutionalization has led only to selective engagement with civil society and has not altered established modes of regional governance. In ECOWAS, however, the norm is understood as a means to render the organization more inclusive of civil society groups and has transformed the regional project in important ways, shaping the logic and form of regional intervention and conflict prevention. To explore these experiences—convergence in adoption and institutionalization of a norm and variation in its practice and effect—we develop a practice theoretic framework and rely on 76 interviews with regional and state officials.",
+    constributors: [
+      {
+        name: "shandell pahlen",
+        title: "lab manager",
+        image: "/memberProfile.png",
+      },
+      {
+        name: "shandell pahlen",
+        title: "lab manager",
+        image: "/memberProfile.png",
+      },
+      {
+        name: "shandell pahlen",
+        title: "lab manager",
+        image: "/memberProfile.png",
+      },
+      {
+        name: "shandell pahlen",
+        title: "lab manager",
+        image: "/memberProfile.png",
+      },
+    ],
+    publications: [
+      {
+        conferencename: "VLDB23",
+        type: "pre-print",
+        title: "Moving Fast with Big Data.",
+        detail:
+          "Shreya Shankar*, Labib Fawaz, Karl Gyllstrom, Aditya G. Parameswaran. Technical Report. May 2023",
+        tags: ["robots"],
+        paper: "#",
+        slides: "#",
+        github: "#",
+        news: "#",
+      },
+      {
+        conferencename: "VLDB23",
+        type: "paper",
+        title: "Efficient and Compact Spreadsheet Formula Graphs.",
+        detail:
+          "Dixin Tang, Fanchao Chen, Christopher De Leon, Tana Wattanawaroon, Jeaseok Yun, Srinivasan Seshadri, Aditya G. Parameswaran. 39th International Conf. on Data Engineering (ICDE), Anaheim, CA, USA. April 2023",
+        tags: ["urban"],
+        paper: "#",
+        slides: "#",
+        github: "#",
+        news: "#",
+      },
+      {
+        conferencename: "VLDB23",
+        type: "pre-print",
+        title: "Operationalizing Machine Learning: An Interview Study.",
+        detail:
+          "Shreya Shankar, Rolando Garcia, Joseph M. Hellerstein, Aditya G. Parameswaran. Technical Report. February 2023",
+        tags: [""],
+        paper: "#",
+        slides: "#",
+        github: "#",
+        news: "#",
+      },
+      {
+        conferencename: "VLDB23",
+        type: "paper",
+        title:
+          "Lux: Always-on Visualization Recommendations for Exploratory Data Science.",
+        detail:
+          "Doris Jung-Lin Lee, Dixin Tang, Kunal Agarwal, Thyne Boonmark, Caitlyn Chen, Jake Kang, Ujjaini Mukhopadhyay, Jerry Song, Micah Yong, Marti A. Hearst, Aditya G. Parameswaran. 48th International Conference on Very Large Data Bases (VLDB), Sydney, Australia and Zoom. September 2022",
+        tags: ["robots"],
+        paper: "#",
+        slides: "#",
+        github: "#",
+        news: "#",
+      },
+    ],
+    news: [
+      {
+        date: "May 31, 2023",
+        summary:
+          "Dixin Tang, a postdoc working with me, will be an assistant professor at University of Texas, Austin. Go Dixin!",
+      },
+      {
+        date: "May 31, 2023",
+        summary:
+          "Dixin and Fanchao's visualization tool for spreadsheet computation networks was accepted at VLDB'23.",
+      },
+    ],
   },
   {
     title: "Urban Search & Rescue Avatar",
@@ -616,6 +701,91 @@ export const researches = [
       "How do countries relate to each other? How do they interact with each other? Gain a broad understanding of different kinds of political issues in the world. Comparative politics and international relations are subfields of political science. This class is open to everyone.",
     detail:
       "The Association of Southeast Asian Nations (ASEAN) and the Economic Community of West African States (ECOWAS) both recently adopted and institutionalized the norm of people-centric governance. This is potentially transformative for both, signalling a reorientation away from their private and elite-led normative foundations. In practice, however, the norm is understood and enacted in different ways by officials at each organization and with radically different effects. In ASEAN, the norm is understood and enacted in a limited and defensive way. Its institutionalization has led only to selective engagement with civil society and has not altered established modes of regional governance. In ECOWAS, however, the norm is understood as a means to render the organization more inclusive of civil society groups and has transformed the regional project in important ways, shaping the logic and form of regional intervention and conflict prevention. To explore these experiences—convergence in adoption and institutionalization of a norm and variation in its practice and effect—we develop a practice theoretic framework and rely on 76 interviews with regional and state officials.",
+    constributors: [
+      {
+        name: "shandell pahlen",
+        title: "lab manager",
+        image: "/memberProfile.png",
+      },
+      {
+        name: "shandell pahlen",
+        title: "lab manager",
+        image: "/memberProfile.png",
+      },
+      {
+        name: "shandell pahlen",
+        title: "lab manager",
+        image: "/memberProfile.png",
+      },
+      {
+        name: "shandell pahlen",
+        title: "lab manager",
+        image: "/memberProfile.png",
+      },
+    ],
+    publications: [
+      {
+        conferencename: "VLDB23",
+        type: "pre-print",
+        title: "Moving Fast with Big Data.",
+        detail:
+          "Shreya Shankar*, Labib Fawaz, Karl Gyllstrom, Aditya G. Parameswaran. Technical Report. May 2023",
+        tags: ["robots"],
+        paper: "#",
+        slides: "#",
+        github: "#",
+        news: "#",
+      },
+      {
+        conferencename: "VLDB23",
+        type: "paper",
+        title: "Efficient and Compact Spreadsheet Formula Graphs.",
+        detail:
+          "Dixin Tang, Fanchao Chen, Christopher De Leon, Tana Wattanawaroon, Jeaseok Yun, Srinivasan Seshadri, Aditya G. Parameswaran. 39th International Conf. on Data Engineering (ICDE), Anaheim, CA, USA. April 2023",
+        tags: ["urban"],
+        paper: "#",
+        slides: "#",
+        github: "#",
+        news: "#",
+      },
+      {
+        conferencename: "VLDB23",
+        type: "pre-print",
+        title: "Operationalizing Machine Learning: An Interview Study.",
+        detail:
+          "Shreya Shankar, Rolando Garcia, Joseph M. Hellerstein, Aditya G. Parameswaran. Technical Report. February 2023",
+        tags: [""],
+        paper: "#",
+        slides: "#",
+        github: "#",
+        news: "#",
+      },
+      {
+        conferencename: "VLDB23",
+        type: "paper",
+        title:
+          "Lux: Always-on Visualization Recommendations for Exploratory Data Science.",
+        detail:
+          "Doris Jung-Lin Lee, Dixin Tang, Kunal Agarwal, Thyne Boonmark, Caitlyn Chen, Jake Kang, Ujjaini Mukhopadhyay, Jerry Song, Micah Yong, Marti A. Hearst, Aditya G. Parameswaran. 48th International Conference on Very Large Data Bases (VLDB), Sydney, Australia and Zoom. September 2022",
+        tags: ["robots"],
+        paper: "#",
+        slides: "#",
+        github: "#",
+        news: "#",
+      },
+    ],
+    news: [
+      {
+        date: "May 31, 2023",
+        summary:
+          "Dixin Tang, a postdoc working with me, will be an assistant professor at University of Texas, Austin. Go Dixin!",
+      },
+      {
+        date: "May 31, 2023",
+        summary:
+          "Dixin and Fanchao's visualization tool for spreadsheet computation networks was accepted at VLDB'23.",
+      },
+    ],
   },
   {
     title:
@@ -626,6 +796,91 @@ export const researches = [
       "How do countries relate to each other? How do they interact with each other? Gain a broad understanding of different kinds of political issues in the world. Comparative politics and international relations are subfields of political science. This class is open to everyone.",
     detail:
       "The Association of Southeast Asian Nations (ASEAN) and the Economic Community of West African States (ECOWAS) both recently adopted and institutionalized the norm of people-centric governance. This is potentially transformative for both, signalling a reorientation away from their private and elite-led normative foundations. In practice, however, the norm is understood and enacted in different ways by officials at each organization and with radically different effects. In ASEAN, the norm is understood and enacted in a limited and defensive way. Its institutionalization has led only to selective engagement with civil society and has not altered established modes of regional governance. In ECOWAS, however, the norm is understood as a means to render the organization more inclusive of civil society groups and has transformed the regional project in important ways, shaping the logic and form of regional intervention and conflict prevention. To explore these experiences—convergence in adoption and institutionalization of a norm and variation in its practice and effect—we develop a practice theoretic framework and rely on 76 interviews with regional and state officials.",
+    constributors: [
+      {
+        name: "shandell pahlen",
+        title: "lab manager",
+        image: "/memberProfile.png",
+      },
+      {
+        name: "shandell pahlen",
+        title: "lab manager",
+        image: "/memberProfile.png",
+      },
+      {
+        name: "shandell pahlen",
+        title: "lab manager",
+        image: "/memberProfile.png",
+      },
+      {
+        name: "shandell pahlen",
+        title: "lab manager",
+        image: "/memberProfile.png",
+      },
+    ],
+    publications: [
+      {
+        conferencename: "VLDB23",
+        type: "pre-print",
+        title: "Moving Fast with Big Data.",
+        detail:
+          "Shreya Shankar*, Labib Fawaz, Karl Gyllstrom, Aditya G. Parameswaran. Technical Report. May 2023",
+        tags: ["robots"],
+        paper: "#",
+        slides: "#",
+        github: "#",
+        news: "#",
+      },
+      {
+        conferencename: "VLDB23",
+        type: "paper",
+        title: "Efficient and Compact Spreadsheet Formula Graphs.",
+        detail:
+          "Dixin Tang, Fanchao Chen, Christopher De Leon, Tana Wattanawaroon, Jeaseok Yun, Srinivasan Seshadri, Aditya G. Parameswaran. 39th International Conf. on Data Engineering (ICDE), Anaheim, CA, USA. April 2023",
+        tags: ["urban"],
+        paper: "#",
+        slides: "#",
+        github: "#",
+        news: "#",
+      },
+      {
+        conferencename: "VLDB23",
+        type: "pre-print",
+        title: "Operationalizing Machine Learning: An Interview Study.",
+        detail:
+          "Shreya Shankar, Rolando Garcia, Joseph M. Hellerstein, Aditya G. Parameswaran. Technical Report. February 2023",
+        tags: [""],
+        paper: "#",
+        slides: "#",
+        github: "#",
+        news: "#",
+      },
+      {
+        conferencename: "VLDB23",
+        type: "paper",
+        title:
+          "Lux: Always-on Visualization Recommendations for Exploratory Data Science.",
+        detail:
+          "Doris Jung-Lin Lee, Dixin Tang, Kunal Agarwal, Thyne Boonmark, Caitlyn Chen, Jake Kang, Ujjaini Mukhopadhyay, Jerry Song, Micah Yong, Marti A. Hearst, Aditya G. Parameswaran. 48th International Conference on Very Large Data Bases (VLDB), Sydney, Australia and Zoom. September 2022",
+        tags: ["robots"],
+        paper: "#",
+        slides: "#",
+        github: "#",
+        news: "#",
+      },
+    ],
+    news: [
+      {
+        date: "May 31, 2023",
+        summary:
+          "Dixin Tang, a postdoc working with me, will be an assistant professor at University of Texas, Austin. Go Dixin!",
+      },
+      {
+        date: "May 31, 2023",
+        summary:
+          "Dixin and Fanchao's visualization tool for spreadsheet computation networks was accepted at VLDB'23.",
+      },
+    ],
   },
   {
     title: "Urban Search & Rescue Avatar",
@@ -635,6 +890,91 @@ export const researches = [
       "How do countries relate to each other? How do they interact with each other? Gain a broad understanding of different kinds of political issues in the world. Comparative politics and international relations are subfields of political science. This class is open to everyone.",
     detail:
       "The Association of Southeast Asian Nations (ASEAN) and the Economic Community of West African States (ECOWAS) both recently adopted and institutionalized the norm of people-centric governance. This is potentially transformative for both, signalling a reorientation away from their private and elite-led normative foundations. In practice, however, the norm is understood and enacted in different ways by officials at each organization and with radically different effects. In ASEAN, the norm is understood and enacted in a limited and defensive way. Its institutionalization has led only to selective engagement with civil society and has not altered established modes of regional governance. In ECOWAS, however, the norm is understood as a means to render the organization more inclusive of civil society groups and has transformed the regional project in important ways, shaping the logic and form of regional intervention and conflict prevention. To explore these experiences—convergence in adoption and institutionalization of a norm and variation in its practice and effect—we develop a practice theoretic framework and rely on 76 interviews with regional and state officials.",
+    constributors: [
+      {
+        name: "shandell pahlen",
+        title: "lab manager",
+        image: "/memberProfile.png",
+      },
+      {
+        name: "shandell pahlen",
+        title: "lab manager",
+        image: "/memberProfile.png",
+      },
+      {
+        name: "shandell pahlen",
+        title: "lab manager",
+        image: "/memberProfile.png",
+      },
+      {
+        name: "shandell pahlen",
+        title: "lab manager",
+        image: "/memberProfile.png",
+      },
+    ],
+    publications: [
+      {
+        conferencename: "VLDB23",
+        type: "pre-print",
+        title: "Moving Fast with Big Data.",
+        detail:
+          "Shreya Shankar*, Labib Fawaz, Karl Gyllstrom, Aditya G. Parameswaran. Technical Report. May 2023",
+        tags: ["robots"],
+        paper: "#",
+        slides: "#",
+        github: "#",
+        news: "#",
+      },
+      {
+        conferencename: "VLDB23",
+        type: "paper",
+        title: "Efficient and Compact Spreadsheet Formula Graphs.",
+        detail:
+          "Dixin Tang, Fanchao Chen, Christopher De Leon, Tana Wattanawaroon, Jeaseok Yun, Srinivasan Seshadri, Aditya G. Parameswaran. 39th International Conf. on Data Engineering (ICDE), Anaheim, CA, USA. April 2023",
+        tags: ["urban"],
+        paper: "#",
+        slides: "#",
+        github: "#",
+        news: "#",
+      },
+      {
+        conferencename: "VLDB23",
+        type: "pre-print",
+        title: "Operationalizing Machine Learning: An Interview Study.",
+        detail:
+          "Shreya Shankar, Rolando Garcia, Joseph M. Hellerstein, Aditya G. Parameswaran. Technical Report. February 2023",
+        tags: [""],
+        paper: "#",
+        slides: "#",
+        github: "#",
+        news: "#",
+      },
+      {
+        conferencename: "VLDB23",
+        type: "paper",
+        title:
+          "Lux: Always-on Visualization Recommendations for Exploratory Data Science.",
+        detail:
+          "Doris Jung-Lin Lee, Dixin Tang, Kunal Agarwal, Thyne Boonmark, Caitlyn Chen, Jake Kang, Ujjaini Mukhopadhyay, Jerry Song, Micah Yong, Marti A. Hearst, Aditya G. Parameswaran. 48th International Conference on Very Large Data Bases (VLDB), Sydney, Australia and Zoom. September 2022",
+        tags: ["robots"],
+        paper: "#",
+        slides: "#",
+        github: "#",
+        news: "#",
+      },
+    ],
+    news: [
+      {
+        date: "May 31, 2023",
+        summary:
+          "Dixin Tang, a postdoc working with me, will be an assistant professor at University of Texas, Austin. Go Dixin!",
+      },
+      {
+        date: "May 31, 2023",
+        summary:
+          "Dixin and Fanchao's visualization tool for spreadsheet computation networks was accepted at VLDB'23.",
+      },
+    ],
   },
 ];
 
