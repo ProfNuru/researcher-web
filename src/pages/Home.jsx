@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <Profile profile={profile} />
-      <RecentNews recentNews={recentNews} />
+      <RecentNews title="recent news" recentNews={recentNews} />
       <FeaturedPublications
         publications={recentPublications}
         title="recent publications"

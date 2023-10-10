@@ -1,16 +1,22 @@
 import { useEffect, useState } from "react";
 import "./SelectInput.css";
 
-const SelectInput = ({ labelId, label, options, initialValue }) => {
+const SelectInput = ({
+  labelId,
+  label,
+  options,
+  initialValue,
+  changeValue,
+}) => {
   const [value, setValue] = useState("");
 
   const onChangeValue = (e) => {
-    setValue(e.target.value);
+    changeValue(initialValue.label, e.target.value);
   };
 
   useEffect(() => {
     if (initialValue) {
-      setValue(initialValue);
+      setValue(initialValue.value);
     }
   }, [initialValue]);
 

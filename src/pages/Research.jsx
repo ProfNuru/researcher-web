@@ -22,7 +22,7 @@ const options = [
 ];
 
 const Research = () => {
-  const toggleState = useStateContext();
+  const { researchFilter } = useStateContext();
   const updateToggleState = useUpdateStateContext();
   const location = useLocation();
   const query = new URLSearchParams(location.search);
@@ -47,7 +47,7 @@ const Research = () => {
           options={options}
           initialValue={{
             label: "researchFilter",
-            value: toggleState.researchFilter,
+            value: researchFilter,
           }}
           updateValue={updateToggleState}
         />

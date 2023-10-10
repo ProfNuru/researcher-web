@@ -1,24 +1,34 @@
 import { publicationTypes, publicationYears } from "../../../constants";
+import {
+  useStateContext,
+  useUpdateStateContext,
+} from "../../store/StateContext";
 import SelectInput from "../ui/SelectInput";
 import "./FilterForm.css";
 
 const FilterForm = () => {
+  const { publicationType, publicationYear } = useStateContext();
+  const updateToggleState = useUpdateStateContext();
+
   const submitFilterForm = (e) => {
     e.preventDefault();
   };
+
   return (
     <form className="filter-form" onSubmit={submitFilterForm}>
       <SelectInput
+        changeValue={updateToggleState}
         labelId="publicationType"
         label="Publication type"
         options={publicationTypes}
-        initialValue={publicationTypes[0].value}
+        initialValue={{ label: "publicationType", value: publicationType }}
       />
       <SelectInput
+        changeValue={updateToggleState}
         labelId="publicationYear"
-        label="Year"
+        label="Publication year"
         options={publicationYears}
-        initialValue={publicationYears[0].value}
+        initialValue={{ label: "publicationYear", value: publicationYear }}
       />
     </form>
   );

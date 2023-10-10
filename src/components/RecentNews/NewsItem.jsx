@@ -6,6 +6,7 @@ const NewsItem = ({
   month,
   year,
   text,
+  title,
   btnLinks,
   courseTitle,
 }) => {
@@ -24,6 +25,7 @@ const NewsItem = ({
       )}
 
       <div className={courses ? "course-detail" : "details"}>
+        {title && <h4>{title}</h4>}
         <div dangerouslySetInnerHTML={{ __html: `<p>${text}</p>` }} />
         <div className="resource-links">
           {btnLinks &&
