@@ -9,6 +9,7 @@ const NewsItem = ({
   title,
   btnLinks,
   courseTitle,
+  confname,
 }) => {
   return (
     <div className={courses ? "course-item" : "news-item"}>
@@ -19,8 +20,14 @@ const NewsItem = ({
         </div>
       ) : (
         <div className="date-pill">
-          <span>{month}</span>
-          <span>{year}</span>
+          <span>
+            {confname ? confname.substring(0, confname.length - 2) : month}
+          </span>
+          <span>
+            {confname
+              ? confname.substring(confname.length - 2, confname.length)
+              : year}
+          </span>
         </div>
       )}
 

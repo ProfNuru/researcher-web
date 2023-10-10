@@ -127,6 +127,7 @@ export const allPublications = publicationsJson
         title: p.title,
         text: p.detail,
         tags: p.tags,
+        conferencename: p.conferencename,
         btnLinks: [
           {
             label: p.type,

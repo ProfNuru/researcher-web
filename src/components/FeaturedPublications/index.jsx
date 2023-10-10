@@ -42,6 +42,7 @@ const FeaturedPublications = ({ mainPage = false, publications, title }) => {
             text={news.text}
             title={news.title}
             btnLinks={news.btnLinks}
+            confname={news.conferencename}
           />
         ))}
       </div>

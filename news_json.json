@@ -1,1 +1,110 @@
-[{"date": "May 31, 2023", "summary": "Dixin Tang, a postdoc working with me, will be an assistant professor at University of Texas, Austin. Go Dixin!"}, {"date": "May 31, 2023", "summary": "Dixin and Fanchao's visualization tool for spreadsheet computation networks was accepted at VLDB'23."}, {"date": "May 24, 2023", "summary": "I enjoyed appearing on the data stack show, talking about how decoupling APIs from execution engines is important."}, {"date": "May 18, 2023", "summary": "Our work with journalists and public defenders as part of the EPIC lab was highlighted in the LA Times news article about the new college of computing, data science, and society."}, {"date": "May 11, 2023", "summary": "I enjoyed serving on a panel on AI-meets-databases at the NorCal DB day."}, {"date": "May 1, 2023", "summary": "Our paper on GATE, an efficient, automated, and precise\n              system for ML-centric data validation is up on arxiv."}, {"date": "March 27, 2023", "summary": "Our work with journalists as part of the EPIC data lab is having real impact: we helped journalists identify that responses to \n              a FOIA request was inadequate, as detailed in this news story."}, {"date": "March 17, 2023", "summary": "Modin now supports NumPy in addition to Pandas; we can push down linear algebra operations to distributed computing engines."}, {"date": "March 6, 2023", "summary": "I wrote a rejoinder to the \"Big Data is Dead\" blogpost: read it here."}, {"date": "March 4, 2023", "summary": "Delighted to be inducted as a Kavli Fellow by the National Academy of Sciences at the US Frontiers of Science Symposium in Irvine. "}, {"date": "February 9. 2023", "summary": "Enjoyed speaking at the Data Dividend, targeted at \"harnessing the power of people, processes and technology to unlock value from data\", an event hosted by the Economist and by IBM "}, {"date": "February 10, 2023", "summary": "Dixin's paper on compaction of spreadsheet graphs was\n            accepted at ICDE! "}, {"date": "January 13, 2023", "summary": "Dixin's paper on transactional panorama \u00e2\u20ac\u201d bridging transactions and interactive dashboards \u00e2\u20ac\u201d was accepted at VLDB! "}, {"date": "January 1, 2023", "summary": "What a year for open-source efforts! Modin reached 5M downloads, Lux reached 500K downloads, and Nbsafety reached 150K downloads. "}, {"date": "December 1, 2022", "summary": "Modin now ships as part of the AWS SDK for Pandas as well as AWS Glue \u00e2\u20ac\u201d showcasing how useful Modin is for data wrangling and ETL with the pandas API at scale. "}, {"date": "November 29, 2022", "summary": "Congrats to my former student, Doris Lee, on being named a Forbes' 30 under 30 in Enterprise Technology! "}, {"date": "September 16, 2022", "summary": "Shreya and Rolando's paper on lessons from interviewing ML Engineers on MLOps practices and challenges has been posted on arxiv."}, {"date": "September 13, 2022", "summary": "We formally unveiled our new lab, the EPIC Data Lab. Here is an article from CDSS about the lab. We are thankful to our current sponsors, Microsoft, Google, and Sigma Computing, along with the National Science Foundation. "}, {"date": "September 1, 2022", "summary": "Our paper on NBSlicer (led by Shreya and Stephen) and a vision paper on MLOps (led by Shreya) were both accepted at VLDB'23!"}, {"date": "August 18, 2022", "summary": "Here's our fourth blog post comparing Pandas to SQL."}, {"date": "July 26, 2022", "summary": "Here's our third blog post comparing Pandas to SQL."}, {"date": "July 14, 2022", "summary": "Here's our second blog post comparing Pandas to SQL."}, {"date": "June 30, 2022", "summary": "Our CACM paper on ShapeSearch \u00e2\u20ac\u201d the invited extended version of our SIGMOD best paper award, is out here."}, {"date": "June 28, 2022", "summary": "Here's our first blog post comparing Pandas to SQL."}, {"date": "June 23, 2022", "summary": "Congrats to Drs. Doris Lee, Devin Petersohn, and Doris Xin on their graduation!"}, {"date": "June 15, 2022", "summary": "New paper from Joe and I on our new data engineering class at Cal!"}, {"date": "June 1, 2022", "summary": "New paper with CMU folks on extending Lux to remember analysis history in a notebook, and use it to bias recommendations towards recent operations or past interest - to appear at Eurovis."}]
+[
+  {
+    "date": "May 31, 2023",
+    "summary": "Dixin Tang, a postdoc working with me, will be an assistant professor at University of Texas, Austin. Go Dixin!"
+  },
+  {
+    "date": "May 31, 2023",
+    "summary": "Dixin and Fanchao's visualization tool for spreadsheet computation networks was accepted at VLDB'23."
+  },
+  {
+    "date": "May 24, 2023",
+    "summary": "I enjoyed appearing on the data stack show, talking about how decoupling APIs from execution engines is important."
+  },
+  {
+    "date": "May 18, 2023",
+    "summary": "Our work with journalists and public defenders as part of the EPIC lab was highlighted in the LA Times news article about the new college of computing, data science, and society."
+  },
+  {
+    "date": "May 11, 2023",
+    "summary": "I enjoyed serving on a panel on AI-meets-databases at the NorCal DB day."
+  },
+  {
+    "date": "May 1, 2023",
+    "summary": "Our paper on GATE, an efficient, automated, and precise\n              system for ML-centric data validation is up on arxiv."
+  },
+  {
+    "date": "March 27, 2023",
+    "summary": "Our work with journalists as part of the EPIC data lab is having real impact: we helped journalists identify that responses to \n              a FOIA request was inadequate, as detailed in this news story."
+  },
+  {
+    "date": "March 17, 2023",
+    "summary": "Modin now supports NumPy in addition to Pandas; we can push down linear algebra operations to distributed computing engines."
+  },
+  {
+    "date": "March 6, 2023",
+    "summary": "I wrote a rejoinder to the \"Big Data is Dead\" blogpost: read it here."
+  },
+  {
+    "date": "March 4, 2023",
+    "summary": "Delighted to be inducted as a Kavli Fellow by the National Academy of Sciences at the US Frontiers of Science Symposium in Irvine. "
+  },
+  {
+    "date": "February 9. 2023",
+    "summary": "Enjoyed speaking at the Data Dividend, targeted at \"harnessing the power of people, processes and technology to unlock value from data\", an event hosted by the Economist and by IBM "
+  },
+  {
+    "date": "February 10, 2023",
+    "summary": "Dixin's paper on compaction of spreadsheet graphs was\n            accepted at ICDE! "
+  },
+  {
+    "date": "January 13, 2023",
+    "summary": "Dixin's paper on transactional panorama \u00e2\u20ac\u201d bridging transactions and interactive dashboards \u00e2\u20ac\u201d was accepted at VLDB! "
+  },
+  {
+    "date": "January 1, 2023",
+    "summary": "What a year for open-source efforts! Modin reached 5M downloads, Lux reached 500K downloads, and Nbsafety reached 150K downloads. "
+  },
+  {
+    "date": "December 1, 2022",
+    "summary": "Modin now ships as part of the AWS SDK for Pandas as well as AWS Glue \u00e2\u20ac\u201d showcasing how useful Modin is for data wrangling and ETL with the pandas API at scale. "
+  },
+  {
+    "date": "November 29, 2022",
+    "summary": "Congrats to my former student, Doris Lee, on being named a Forbes' 30 under 30 in Enterprise Technology! "
+  },
+  {
+    "date": "September 16, 2022",
+    "summary": "Shreya and Rolando's paper on lessons from interviewing ML Engineers on MLOps practices and challenges has been posted on arxiv."
+  },
+  {
+    "date": "September 13, 2022",
+    "summary": "We formally unveiled our new lab, the EPIC Data Lab. Here is an article from CDSS about the lab. We are thankful to our current sponsors, Microsoft, Google, and Sigma Computing, along with the National Science Foundation. "
+  },
+  {
+    "date": "September 1, 2022",
+    "summary": "Our paper on NBSlicer (led by Shreya and Stephen) and a vision paper on MLOps (led by Shreya) were both accepted at VLDB'23!"
+  },
+  {
+    "date": "August 18, 2022",
+    "summary": "Here's our fourth blog post comparing Pandas to SQL."
+  },
+  {
+    "date": "July 26, 2022",
+    "summary": "Here's our third blog post comparing Pandas to SQL."
+  },
+  {
+    "date": "July 14, 2022",
+    "summary": "Here's our second blog post comparing Pandas to SQL."
+  },
+  {
+    "date": "June 30, 2022",
+    "summary": "Our CACM paper on ShapeSearch \u00e2\u20ac\u201d the invited extended version of our SIGMOD best paper award, is out here."
+  },
+  {
+    "date": "June 28, 2022",
+    "summary": "Here's our first blog post comparing Pandas to SQL."
+  },
+  {
+    "date": "June 23, 2022",
+    "summary": "Congrats to Drs. Doris Lee, Devin Petersohn, and Doris Xin on their graduation!"
+  },
+  {
+    "date": "June 15, 2022",
+    "summary": "New paper from Joe and I on our new data engineering class at Cal!"
+  },
+  {
+    "date": "June 1, 2022",
+    "summary": "New paper with CMU folks on extending Lux to remember analysis history in a notebook, and use it to bias recommendations towards recent operations or past interest - to appear at Eurovis."
+  }
+]
