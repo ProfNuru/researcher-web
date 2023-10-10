@@ -4,6 +4,7 @@ import Heading from "../components/Heading";
 import ResearchesList from "../components/ResearchesList";
 import ToggleButtons from "../components/ui/ToggleButtons";
 import IndividualResearchPage from "./IndividualResearchPage";
+import { useStateContext, useUpdateStateContext } from "../store/StateContext";
 
 const options = [
   {
@@ -11,19 +12,22 @@ const options = [
     value: "all",
   },
   {
-    label: "Topic 1",
-    value: "topic1",
+    label: "Robotics",
+    value: "robots",
   },
   {
-    label: "Topic 2",
-    value: "topic2",
+    label: "Urban",
+    value: "urban",
   },
 ];
 
 const Research = () => {
+  const toggleState = useStateContext();
+  const updateToggleState = useUpdateStateContext();
   const location = useLocation();
   const query = new URLSearchParams(location.search);
   const individualResearch = query.get("r");
+
   return individualResearch ? (
     <IndividualResearchPage researchName={individualResearch} />
   ) : (
@@ -39,7 +43,14 @@ const Research = () => {
         }}
       >
         <Heading title="research" center={true} />
-        <ToggleButtons options={options} />
+        <ToggleButtons
+          options={options}
+          initialValue={{
+            label: "researchFilter",
+            value: toggleState.researchFilter,
+          }}
+          updateValue={updateToggleState}
+        />
       </div>
 
       <ResearchesList researches={researches} />

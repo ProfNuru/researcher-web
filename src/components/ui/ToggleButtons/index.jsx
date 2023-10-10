@@ -2,14 +2,20 @@ import { useEffect, useState } from "react";
 import Button from "../Button";
 import "./ToggleButtons.css";
 
-const ToggleButtons = ({ options }) => {
+const ToggleButtons = ({ options, updateValue, initialValue }) => {
   const [value, setValue] = useState("");
 
+  const changeValue = (v) => {
+    updateValue(initialValue.label, v);
+  };
+
   useEffect(() => {
-    if (options && options.length > 0) {
+    if (initialValue) {
+      setValue(initialValue.value);
+    } else if (options && options.length > 0) {
       setValue(options[0].value);
     }
-  }, [options]);
+  }, [options, initialValue]);
 
   return (
     <div className="toggle-buttons">
@@ -20,7 +26,7 @@ const ToggleButtons = ({ options }) => {
           toggler={true}
           active={value === option.value}
           link={`#${option.value}`}
-          fxn={() => setValue(option.value)}
+          fxn={() => changeValue(option.value)}
         />
       ))}
     </div>

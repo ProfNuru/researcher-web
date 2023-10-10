@@ -2,6 +2,7 @@ import { useRoutes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { routes } from "../constants";
+import { StateProvider } from "./store/StateContext";
 import "./App.css";
 
 function App() {
@@ -13,13 +14,15 @@ function App() {
   );
 
   return (
-    <div className="App">
-      <div className="wrapper">
-        <Navbar routes={routes} />
-        <main>{element}</main>
+    <StateProvider>
+      <div className="App">
+        <div className="wrapper">
+          <Navbar routes={routes} />
+          <main>{element}</main>
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </StateProvider>
   );
 }
 
