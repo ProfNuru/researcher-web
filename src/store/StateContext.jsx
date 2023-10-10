@@ -13,6 +13,7 @@ export function useUpdateStateContext() {
 export function StateProvider({ children }) {
   const [state, setState] = useState({
     researchFilter: "all",
+    publicationFilter: "",
     publicationType: "all",
     publicationYear: "",
   });

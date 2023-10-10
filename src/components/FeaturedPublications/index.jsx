@@ -4,7 +4,9 @@ import NewsItem from "../RecentNews/NewsItem";
 import "./FeaturedPublications.css";
 
 const FeaturedPublications = ({ mainPage = false, publications, title }) => {
-  const { publicationType, publicationYear } = useStateContext();
+  console.log(publications);
+  const { publicationType, publicationYear, publicationFilter } =
+    useStateContext();
 
   const filteredByType =
     publicationType === "all"
@@ -12,8 +14,12 @@ const FeaturedPublications = ({ mainPage = false, publications, title }) => {
       : publications.filter(
           (p) => !!p.btnLinks.find((type) => type.label === publicationType)
         );
+  const filterByTopic =
+    publicationFilter === "" || publicationFilter === "all"
+      ? filteredByType
+      : filteredByType.filter((p) => p.tags.includes(publicationFilter));
 
-  const filteredPublications = filteredByType.filter((p) =>
+  const filteredPublications = filterByTopic.filter((p) =>
     p.date.includes(publicationYear)
   );
 

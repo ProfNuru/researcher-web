@@ -126,6 +126,7 @@ export const allPublications = publicationsJson
           : date,
         title: p.title,
         text: p.detail,
+        tags: p.tags,
         btnLinks: [
           {
             label: p.type,

@@ -11,7 +11,7 @@ const Home = () => {
       <RecentNews title="recent news" recentNews={recentNews} />
       <FeaturedPublications
         publications={recentPublications}
-        title="recent publications"
+        title="featured publications"
       />
       <Acknowledgements />
     </>
