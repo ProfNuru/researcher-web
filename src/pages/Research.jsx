@@ -27,6 +27,7 @@ const Research = () => {
   const location = useLocation();
   const query = new URLSearchParams(location.search);
   const individualResearch = query.get("r");
+  console.log(individualResearch);
 
   return individualResearch ? (
     <IndividualResearchPage researchName={individualResearch} />

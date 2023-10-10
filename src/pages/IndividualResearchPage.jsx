@@ -5,7 +5,22 @@ import ResearchContributors from "../components/ResearchContributors";
 import RecentNews from "../components/RecentNews";
 
 const IndividualResearchPage = ({ researchName }) => {
-  const research = researches.find((r) => r.title === researchName);
+  const selected_research = researches.find((r) => r.title === researchName);
+  const related_news = selected_research.news.map((obj) => ({
+    date: obj.date.includes(".")
+      ? `${obj.date.toLowerCase().split(". ")[0].substring(0, 3)} ${
+          obj.date.toLowerCase().split(". ")[1]
+        }`
+      : `${obj.date.toLowerCase().split(", ")[0].substring(0, 3)} ${
+          obj.date.toLowerCase().split(", ")[1]
+        }`,
+    text: obj.text,
+  }));
+  const research = {
+    ...selected_research,
+    news: related_news,
+  };
+  console.log("Clicked research:", related_news);
   return (
     <div
       style={{
@@ -84,13 +99,7 @@ const IndividualResearchPage = ({ researchName }) => {
             <Heading center={false} title={"contributors"} />
             <ResearchContributors contributors={research.contributors} />
           </div>
-          <RecentNews
-            recentNews={[
-              research.news[research.news.length - 1],
-              research.news[research.news.length - 2],
-            ]}
-            title={"related news"}
-          />
+          <RecentNews recentNews={research.news} title={"related news"} />
         </>
       ) : (
         <div
