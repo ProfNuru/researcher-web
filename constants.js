@@ -132,8 +132,20 @@ export const allPublications = publicationsJson
         conferencename: p.conferencename,
         btnLinks: [
           {
-            label: p.type,
-            link: `#`,
+            label: "paper",
+            link: p.paper,
+          },
+          {
+            label: "slides",
+            link: p.slides,
+          },
+          {
+            label: "news",
+            link: p.news,
+          },
+          {
+            label: "github",
+            link: p.github,
           },
         ],
       };
@@ -342,8 +354,20 @@ export const recentPublications = featuredPublicationsJson
         conferencename: p.conferencename,
         btnLinks: [
           {
-            label: p.type,
-            link: `#`,
+            label: "paper",
+            link: p.paper,
+          },
+          {
+            label: "slides",
+            link: p.slides,
+          },
+          {
+            label: "news",
+            link: p.news,
+          },
+          {
+            label: "github",
+            link: p.github,
           },
         ],
       };

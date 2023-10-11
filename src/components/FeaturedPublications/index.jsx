@@ -4,7 +4,7 @@ import NewsItem from "../RecentNews/NewsItem";
 import "./FeaturedPublications.css";
 
 const FeaturedPublications = ({ mainPage = false, publications, title }) => {
-  console.log(publications);
+  // console.log(publications);
   const { publicationType, publicationYear, publicationFilter } =
     useStateContext();
 
