@@ -38,15 +38,23 @@ const NewsItem = ({
           {btnLinks &&
             btnLinks.map((btnLink) => (
               <Button
-                blankTab={true}
+                blankTab={
+                  btnLink.link && btnLink.link !== "#" && btnLink.link !== ""
+                }
                 key={btnLink.label}
                 text={btnLink.label}
                 link={btnLink.link}
                 fxn={() => {
-                  window.open(
-                    btnLink.link,
-                    title ? title : `${btnLink.label.capitalize()}`
-                  );
+                  if (
+                    btnLink.link &&
+                    btnLink.link !== "#" &&
+                    btnLink.link !== ""
+                  ) {
+                    window.open(
+                      btnLink.link,
+                      title ? title : `${btnLink.label.capitalize()}`
+                    );
+                  }
                   return false;
                 }}
               />
