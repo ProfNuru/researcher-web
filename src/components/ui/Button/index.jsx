@@ -4,12 +4,14 @@ import "./Button.css";
 const Button = ({
   text,
   link,
+  blankTab = false,
   toggler = false,
   active = false,
   fxn = () => {},
 }) => {
   return (
     <Link
+      target={blankTab ? "_blank" : "_self"}
       to={link}
       onClick={fxn}
       className={`${active ? "activeButton" : "actionButton"} ${

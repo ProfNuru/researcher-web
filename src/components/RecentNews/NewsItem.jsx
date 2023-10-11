@@ -38,9 +38,17 @@ const NewsItem = ({
           {btnLinks &&
             btnLinks.map((btnLink) => (
               <Button
+                blankTab={true}
                 key={btnLink.label}
                 text={btnLink.label}
                 link={btnLink.link}
+                fxn={() => {
+                  window.open(
+                    btnLink.link,
+                    title ? title : `${btnLink.label.capitalize()}`
+                  );
+                  return false;
+                }}
               />
             ))}
         </div>
