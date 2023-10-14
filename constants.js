@@ -89,32 +89,7 @@ export const recentNews = newsJson
           }`,
       text: obj.summary,
     }))
-  : [
-      {
-        date: "jun 2023",
-        text: "One paper on <a href='#'>measuring the persistence of activity in evolving networks</a> is accepted at KDD '20. Congratulations to Caleb and Carol!",
-      },
-      {
-        date: "jun 2023",
-        text: "One paper on <a href='#'>measuring the persistence of activity in evolving networks</a> is accepted at KDD '20. Congratulations to Caleb and Carol!",
-      },
-      {
-        date: "jul 2023",
-        text: "Honored to give a keynote at <a href='#'>ECML/PKDD</a>. Many thanks to the organizers for giving me this opportunity!",
-      },
-      {
-        date: "jul 2023",
-        text: "Honored to give a keynote at <a href='#'>ECML/PKDD</a>. Many thanks to the organizers for giving me this opportunity!",
-      },
-      {
-        date: "sep 2023",
-        text: "Giving keynote talks at the ACM KDD Applied Data Science track, the VLDB Scalable Data Science Research series, the KDD Outlier Detection and Description (ODD) workshop, and the ICML Workshop on Representation Learning for Finance and E-Commerce Applications. Thanks to all the track chairs and organizers for inviting me to present my group's work!",
-      },
-      {
-        date: "sep 2023",
-        text: "Giving keynote talks at the ACM KDD Applied Data Science track, the VLDB Scalable Data Science Research series, the KDD Outlier Detection and Description (ODD) workshop, and the ICML Workshop on Representation Learning for Finance and E-Commerce Applications. Thanks to all the track chairs and organizers for inviting me to present my group's work!",
-      },
-    ];
+  : [];
 
 export const allPublications = publicationsJson
   ? publicationsJson.map((p) => {
@@ -151,192 +126,7 @@ export const allPublications = publicationsJson
       };
       return obj;
     })
-  : [
-      {
-        date: "conf 2023",
-        title: "Title",
-        text: "Lack of astrocytes hinders parenchymal oligodendrocyte precursor cells from reaching a myelinating state in osmolyte-induced demyelination",
-        btnLinks: [
-          {
-            label: "preprint",
-            link: "/preprint",
-          },
-          {
-            label: "pdf",
-            link: "/pdf",
-          },
-          {
-            label: "url",
-            link: "/url",
-          },
-          {
-            label: "github",
-            link: "/github",
-          },
-        ],
-      },
-      {
-        date: "conf 2023",
-        title: "Title",
-        text: "Lack of astrocytes hinders parenchymal oligodendrocyte precursor cells from reaching a myelinating state in osmolyte-induced demyelination",
-        btnLinks: [
-          {
-            label: "preprint",
-            link: "/preprint",
-          },
-          {
-            label: "pdf",
-            link: "/pdf",
-          },
-          {
-            label: "url",
-            link: "/url",
-          },
-          {
-            label: "github",
-            link: "/github",
-          },
-        ],
-      },
-      {
-        date: "conf 2023",
-        title: "Title",
-        text: "Lack of astrocytes hinders parenchymal oligodendrocyte precursor cells from reaching a myelinating state in osmolyte-induced demyelination",
-        btnLinks: [
-          {
-            label: "preprint",
-            link: "/preprint",
-          },
-          {
-            label: "pdf",
-            link: "/pdf",
-          },
-          {
-            label: "url",
-            link: "/url",
-          },
-          {
-            label: "github",
-            link: "/github",
-          },
-        ],
-      },
-      {
-        date: "conf 2023",
-        title: "Title",
-        text: "Lack of astrocytes hinders parenchymal oligodendrocyte precursor cells from reaching a myelinating state in osmolyte-induced demyelination",
-        btnLinks: [
-          {
-            label: "preprint",
-            link: "/preprint",
-          },
-          {
-            label: "pdf",
-            link: "/pdf",
-          },
-          {
-            label: "url",
-            link: "/url",
-          },
-          {
-            label: "github",
-            link: "/github",
-          },
-        ],
-      },
-      {
-        date: "conf 2023",
-        title: "Title",
-        text: "Lack of astrocytes hinders parenchymal oligodendrocyte precursor cells from reaching a myelinating state in osmolyte-induced demyelination",
-        btnLinks: [
-          {
-            label: "preprint",
-            link: "/preprint",
-          },
-          {
-            label: "pdf",
-            link: "/pdf",
-          },
-          {
-            label: "url",
-            link: "/url",
-          },
-          {
-            label: "github",
-            link: "/github",
-          },
-        ],
-      },
-      {
-        date: "conf 2023",
-        title: "Title",
-        text: "Lack of astrocytes hinders parenchymal oligodendrocyte precursor cells from reaching a myelinating state in osmolyte-induced demyelination",
-        btnLinks: [
-          {
-            label: "preprint",
-            link: "/preprint",
-          },
-          {
-            label: "pdf",
-            link: "/pdf",
-          },
-          {
-            label: "url",
-            link: "/url",
-          },
-          {
-            label: "github",
-            link: "/github",
-          },
-        ],
-      },
-      {
-        date: "conf 2023",
-        title: "Title",
-        text: "Lack of astrocytes hinders parenchymal oligodendrocyte precursor cells from reaching a myelinating state in osmolyte-induced demyelination",
-        btnLinks: [
-          {
-            label: "preprint",
-            link: "/preprint",
-          },
-          {
-            label: "pdf",
-            link: "/pdf",
-          },
-          {
-            label: "url",
-            link: "/url",
-          },
-          {
-            label: "github",
-            link: "/github",
-          },
-        ],
-      },
-      {
-        date: "conf 2023",
-        title: "Title",
-        text: "Lack of astrocytes hinders parenchymal oligodendrocyte precursor cells from reaching a myelinating state in osmolyte-induced demyelination",
-        btnLinks: [
-          {
-            label: "preprint",
-            link: "/preprint",
-          },
-          {
-            label: "pdf",
-            link: "/pdf",
-          },
-          {
-            label: "url",
-            link: "/url",
-          },
-          {
-            label: "github",
-            link: "/github",
-          },
-        ],
-      },
-    ];
+  : [];
 
 export const recentPublications = featuredPublicationsJson
   ? featuredPublicationsJson.map((p) => {
@@ -373,7 +163,7 @@ export const recentPublications = featuredPublicationsJson
       };
       return obj;
     })
-  : allPublications.filter((p, i) => i <= 5);
+  : [];
 
 export const supports = [
   {
@@ -1004,29 +794,6 @@ export const researches = researchesJson
         ],
       },
     ];
-
-export const contributors = [
-  {
-    name: "shandell pahlen",
-    title: "lab manager",
-    image: "/memberProfile.png",
-  },
-  {
-    name: "shandell pahlen",
-    title: "lab manager",
-    image: "/memberProfile.png",
-  },
-  {
-    name: "shandell pahlen",
-    title: "lab manager",
-    image: "/memberProfile.png",
-  },
-  {
-    name: "shandell pahlen",
-    title: "lab manager",
-    image: "/memberProfile.png",
-  },
-];
 
 export const allMedia = [
   {

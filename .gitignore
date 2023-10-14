@@ -14,6 +14,10 @@ dist-ssr
 
 scraper
 scraper.py
+news_json.json
+publications_json.json
+featured_publications_json.json
+researches_json.json
 
 # Editor directories and files
 .vscode/*
